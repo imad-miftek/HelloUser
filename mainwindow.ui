@@ -6,23 +6,42 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>109</width>
+    <height>115</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLineEdit" name="lineEdit"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Say Hello</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>109</width>
      <height>21</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuHello_User">
+    <property name="title">
+     <string>Hello User</string>
+    </property>
+   </widget>
+   <addaction name="menuHello_User"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
