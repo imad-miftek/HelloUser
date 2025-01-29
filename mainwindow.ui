@@ -36,12 +36,6 @@
      <height>21</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuHello_User">
-    <property name="title">
-     <string>Hello User</string>
-    </property>
-   </widget>
-   <addaction name="menuHello_User"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
